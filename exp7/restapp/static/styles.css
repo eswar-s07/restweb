@@ -1,0 +1,85 @@
+ body{
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        header{
+            background-color: #000000;
+            color: #d60000;
+            font-family: 'brush script mt', cursive;
+            font-size: 1.2em;
+            padding: 0.1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 2rem;
+        }
+        nav a{
+            color: #d60000;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .home{
+            background: url('https://images.unsplash.com/photo-1558030137-d464dd688b00?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+            height: 100vh;
+            padding: 0.1em 0em;
+            text-align: center;
+            align-content: center;
+            color:#ffffff;
+            font-size: 2em;
+            font-family:'Playfair Display', serif;
+            font-style:italic;
+            text-shadow: 2px 2px 6px #000;
+        }
+        section{
+            text-align: center;
+            font-size: 1.5em;
+            font-family: 'Playfair Display', serif;
+            font-style: bold;
+            padding: 2em;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        .items {
+            background-color: #fb8818;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.815);
+            padding: 1em;
+            width: 250px;
+        }
+        .items img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .story{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+        .staff{
+            background-color: #9f9e9e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.815);
+            padding: 1em;
+            width: 250px;
+        }
+        footer {
+        background-color: #000000;
+        color: #d60000;
+        text-align: center;
+        padding: 0.5em;
+        }
